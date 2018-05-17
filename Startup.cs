@@ -11,6 +11,9 @@ using Microsoft.Extensions.Options;
 using web_api.Persistence;
 using web_api.Service;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace web_api
 {
@@ -31,9 +34,19 @@ namespace web_api
                             );
             services.AddMvc();
 
-                
+            services.AddCors();                
             // Register application services.
             services.AddScoped<IUserService, UserService>();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(
+                    options=>{
+                        options.TokenValidationParameters = new TokenValidationParameters{
+                            ValidateIssuerSigningKey = true,
+                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection("Key:secret").Value))
+                        }
+                    }
+                );
 
         }
 
