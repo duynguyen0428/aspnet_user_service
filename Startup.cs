@@ -43,8 +43,10 @@ namespace web_api
                     options=>{
                         options.TokenValidationParameters = new TokenValidationParameters{
                             ValidateIssuerSigningKey = true,
-                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection("Key:secret").Value))
-                        }
+                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection("Key:secret").Value)),
+                            ValidateIssuer = false,
+                            ValidateAudience = false
+                        };
                     }
                 );
 
@@ -57,7 +59,8 @@ namespace web_api
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            // use CORS
+            app.UseCors( x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
             app.UseMvc();
         }
     }
