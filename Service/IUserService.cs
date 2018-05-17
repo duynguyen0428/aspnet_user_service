@@ -5,7 +5,7 @@ namespace web_api.Service
 {
     public interface IUserService
     {
-        Task<User> Register(string email, string password);
+        Task<User> Register(User user, string password);
 
         Task<User> GetUser(string email);
 
