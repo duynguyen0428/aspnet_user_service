@@ -1,0 +1,10 @@
+E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.csproj.CoreCompileInputs.cache
+E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.AssemblyInfoInputs.cache
+E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.AssemblyInfo.cs
+E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.deps.json
+E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.runtimeconfig.json
+E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.runtimeconfig.dev.json
+E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.dll
+E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.pdb
+E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.dll
+E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.pdb
