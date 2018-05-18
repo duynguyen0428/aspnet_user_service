@@ -1,20 +1,31 @@
-E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.csproj.CoreCompileInputs.cache
-E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.AssemblyInfoInputs.cache
-E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.AssemblyInfo.cs
-E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.deps.json
-E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.runtimeconfig.json
-E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.runtimeconfig.dev.json
-E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.dll
-E:\asp_net_core\web_dev\web_api\bin\Debug\netcoreapp2.0\web_api.pdb
-E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.dll
-E:\asp_net_core\web_dev\web_api\obj\Debug\netcoreapp2.0\web_api.pdb
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\obj\Debug\netcoreapp2.0\web_api.csproj.CoreCompileInputs.cache
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\obj\Debug\netcoreapp2.0\web_api.AssemblyInfoInputs.cache
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\obj\Debug\netcoreapp2.0\web_api.AssemblyInfo.cs
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\obj\Debug\netcoreapp2.0\web_api.dll
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\obj\Debug\netcoreapp2.0\web_api.pdb
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\bin\Debug\netcoreapp2.0\web_api.deps.json
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\bin\Debug\netcoreapp2.0\web_api.runtimeconfig.json
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\bin\Debug\netcoreapp2.0\web_api.runtimeconfig.dev.json
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\bin\Debug\netcoreapp2.0\web_api.dll
-C:\Users\Duy Nguyen-ThinkPad\Desktop\asp_dotnet_core_projects\web_api\bin\Debug\netcoreapp2.0\web_api.pdb
+E:/asp_net_core/web_dev/web_api/obj/Debug/netcoreapp2.0/web_api.csproj.CoreCompileInputs.cache
+E:/asp_net_core/web_dev/web_api/obj/Debug/netcoreapp2.0/web_api.AssemblyInfoInputs.cache
+E:/asp_net_core/web_dev/web_api/obj/Debug/netcoreapp2.0/web_api.AssemblyInfo.cs
+E:/asp_net_core/web_dev/web_api/bin/Debug/netcoreapp2.0/web_api.deps.json
+E:/asp_net_core/web_dev/web_api/bin/Debug/netcoreapp2.0/web_api.runtimeconfig.json
+E:/asp_net_core/web_dev/web_api/bin/Debug/netcoreapp2.0/web_api.runtimeconfig.dev.json
+E:/asp_net_core/web_dev/web_api/bin/Debug/netcoreapp2.0/web_api.dll
+E:/asp_net_core/web_dev/web_api/bin/Debug/netcoreapp2.0/web_api.pdb
+E:/asp_net_core/web_dev/web_api/obj/Debug/netcoreapp2.0/web_api.dll
+E:/asp_net_core/web_dev/web_api/obj/Debug/netcoreapp2.0/web_api.pdb
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/obj/Debug/netcoreapp2.0/web_api.csproj.CoreCompileInputs.cache
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/obj/Debug/netcoreapp2.0/web_api.AssemblyInfoInputs.cache
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/obj/Debug/netcoreapp2.0/web_api.AssemblyInfo.cs
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/obj/Debug/netcoreapp2.0/web_api.dll
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/obj/Debug/netcoreapp2.0/web_api.pdb
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/bin/Debug/netcoreapp2.0/web_api.deps.json
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/bin/Debug/netcoreapp2.0/web_api.runtimeconfig.json
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/bin/Debug/netcoreapp2.0/web_api.runtimeconfig.dev.json
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/bin/Debug/netcoreapp2.0/web_api.dll
+C:/Users/Duy Nguyen-ThinkPad/Desktop/asp_dotnet_core_projects/web_api/bin/Debug/netcoreapp2.0/web_api.pdb
+/Users/duynguyen/Desktop/dotnet_projects/web_api/bin/Debug/netcoreapp2.0/web_api.deps.json
+/Users/duynguyen/Desktop/dotnet_projects/web_api/bin/Debug/netcoreapp2.0/web_api.runtimeconfig.json
+/Users/duynguyen/Desktop/dotnet_projects/web_api/bin/Debug/netcoreapp2.0/web_api.runtimeconfig.dev.json
+/Users/duynguyen/Desktop/dotnet_projects/web_api/bin/Debug/netcoreapp2.0/web_api.dll
+/Users/duynguyen/Desktop/dotnet_projects/web_api/bin/Debug/netcoreapp2.0/web_api.pdb
+/Users/duynguyen/Desktop/dotnet_projects/web_api/obj/Debug/netcoreapp2.0/web_api.csprojResolveAssemblyReference.cache
+/Users/duynguyen/Desktop/dotnet_projects/web_api/obj/Debug/netcoreapp2.0/web_api.csproj.CoreCompileInputs.cache
+/Users/duynguyen/Desktop/dotnet_projects/web_api/obj/Debug/netcoreapp2.0/web_api.AssemblyInfoInputs.cache
+/Users/duynguyen/Desktop/dotnet_projects/web_api/obj/Debug/netcoreapp2.0/web_api.AssemblyInfo.cs
+/Users/duynguyen/Desktop/dotnet_projects/web_api/obj/Debug/netcoreapp2.0/web_api.dll
+/Users/duynguyen/Desktop/dotnet_projects/web_api/obj/Debug/netcoreapp2.0/web_api.pdb

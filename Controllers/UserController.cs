@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using web_api.Dtos;
 using web_api.Model;
@@ -17,14 +18,17 @@ namespace web_api.Controllers {
     public class UserController : Controller {
         private readonly IUserService _service;
         private readonly IConfiguration _config;
-        public UserController (IUserService service, IConfiguration config) {
+        private readonly ILogger<UserController> _logger;
+        public UserController (IUserService service, IConfiguration config, ILogger<UserController> logger) {
+            this._logger = logger;
             this._config = config;
             this._service = service;
         }
 
         // Register Controller : Handle Register Request
-        [HttpPost]
+        [HttpPost("register",Name="Register")]
         public async Task<IActionResult> Register ([FromBody] UserDto newuser) {
+            
             if (newuser == null)
                 return BadRequest ();
 
@@ -78,8 +82,8 @@ namespace web_api.Controllers {
                 new Claim (ClaimTypes.Name, loginCallback.Email)
                 }
                 ),
-                Expires = DateTime.Now.AddHours (1),
-                SigningCredentials = new SigningCredentials (new SymmetricSecurityKey (Encoding.ASCII.GetBytes(key)), SecurityAlgorithms.HmacSha512Signature)
+                Expires = DateTime.Now.AddDays (1),
+                SigningCredentials = new SigningCredentials (new SymmetricSecurityKey (Encoding.ASCII.GetBytes (key)), SecurityAlgorithms.HmacSha512Signature)
             };
             var token = tokenHandler.CreateToken (tokenDescriptor);
             var tokenString = tokenHandler.WriteToken (token);

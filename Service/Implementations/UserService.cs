@@ -19,9 +19,10 @@ namespace web_api.Service
             throw new NotImplementedException();
         }
 
-        public Task<bool> IsUserExist(string email)
+        public async Task<bool> IsUserExist(string email)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            return await this._context.Users.FirstOrDefaultAsync(u => u.Email.Equals(email)) != null;
         }
 
         public async Task<User> Login(string email, string pwd)
@@ -30,11 +31,13 @@ namespace web_api.Service
             // 1. Find user 
 
             var user = await this._context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            // System.Console.WriteLine("User found :" + user);
             if(user == null)
                 return null;
             
             //compare password
             var comparedPWD = VerifyPassword(pwd, user.HashedPassword, user.SaltPassword);
+            // System.Console.WriteLine("Compared PWD found :" + comparedPWD);            
             if(!comparedPWD)
                 return null;
 
@@ -44,11 +47,14 @@ namespace web_api.Service
         private bool VerifyPassword(string pwd, byte[] hashedPassword, byte[] saltPassword)
         {
             // throw new NotImplementedException();
-            using(var hmac = new System.Security.Cryptography.HMACSHA512()){
+            using(var hmac = new System.Security.Cryptography.HMACSHA512(saltPassword)){
                  var computedHashed = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(pwd));
+                //  System.Console.WriteLine("Computed hashed: " + computedHashed + "\nHasedPassword: " + hashedPassword);
                  for(int i = 0; i < computedHashed.Length; i ++){
-                     if(computedHashed[i] != hashedPassword[i])
+                     if(computedHashed[i] != hashedPassword[i]){
+                        // System.Console.WriteLine("Computed hashed: " + computedHashed[i] + "\nHasedPassword: " + hashedPassword[i]);                     
                         return false;
+                     }
                  }
            }
            return true;
